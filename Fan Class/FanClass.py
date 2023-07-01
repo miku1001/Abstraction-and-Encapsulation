@@ -21,3 +21,11 @@ class Fan:
     # Create setter methods for fan speed
     def set_fan_speed(self, speed):
         self.__speed = speed
+    
+    # Create getter methods for power status
+    def get_on(self):
+        return self.__on
+        
+    # Create setter methods for fan speed
+    def set_on(self, on):
+        self.__on = on
