@@ -1,3 +1,12 @@
+# Import ptfiglet and termcolor
+from pyfiglet import Figlet
+from termcolor import colored
+
+# Create header
+f = Figlet(font='banner3-D')
+print(colored(f.renderText("       Fan       "), 'green'))
+print(colored(("=" * 72), color='violet'))
+
 # Create class for pet
 class Pet:
     # Create constructor
