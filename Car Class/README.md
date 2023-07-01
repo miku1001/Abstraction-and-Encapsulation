@@ -7,7 +7,7 @@ incorporating important attributes such as the year model, make, and speed.
 
 ### Table of Contents
 - [Tech](#tech)
-- [Features](#feat)
+- [Attributes](#att)
 - [Project Structure](#proj)
 - [Run](#run)
 - [How to run in IDE](#ide)
@@ -20,7 +20,7 @@ blocks that contain both data and actions. By using objects, we can make our cod
 Uses:
 * [Python] - Programming Language
 
-### Features <a name="feat"></a>
+### Attributes <a name="att"></a>
 - Model Year: The year model attribute in the CarClass refers to the specific year in which the car model was manufactured. It provides information
   about the age or vintage of the car, allowing you to identify the specific model year.
 - Make: The make attribute in the CarClass represents the brand or manufacturer of the car. It specifies the company responsible for producing the
