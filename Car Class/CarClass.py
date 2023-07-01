@@ -34,7 +34,7 @@ class Car:
 
     # Create brake method
     def brake(self):
-        self.__speed -= 6
+        self.__speed -= 5
 
     # Return current speed
     def get_speed(self):
