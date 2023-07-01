@@ -24,8 +24,6 @@ class Car:
     def get_make(self):
         return self.__make
     
-    def get_speed(self):
-        return self.__speed
 
     # Create setter methods for, year, make and speed
     def set_year(self, year):
