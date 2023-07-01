@@ -1,7 +1,29 @@
 # Create class for fan
-# Create constannt for fan speed
-# Create constructor
-# Set default fan speed, on, radius and color
-# Create instance variable
-# Create getter methods for fan speed, power status, radius, and color
-# Create setter methods for fan speed, power status, radius, and color
+class Car:
+    # Create constructor
+    # Set default speed
+    def __init__(self, year, make, speed = 0 ):
+        # Create instance variable
+        self.__year = year
+        self.__make = make
+        self.__speed = speed
+
+    # Create getter methods for year, make, and speed
+    def get_year(self):
+        return self.__year
+    
+    def get_make(self):
+        return self.__make
+    
+    def get_speed(self):
+        return self.__speed
+
+    # Create setter methods for, year, make and speed
+    def set_year(self, year):
+        self.__year = year
+    
+    def set_make(self, make):
+        self.__make = make
+    
+    def set_speed(self, speed):
+        self.__speed = speed
