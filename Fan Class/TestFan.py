@@ -10,7 +10,7 @@ class TestFan:
         print(colored(("-" * 72), color='green'))
         
         # create object for fan1
-        fan1 = Fan(Fan.SLOW, True, 5, "yellow")
+        fan1 = Fan(Fan.SLOW, True, 10, "yellow")
         # print
         print("\033[1;33mFan Speed:\033[0m", fan1.get_fan_speed())
         print("\033[1;31mPower:\033[0m", fan1.get_on())
@@ -24,7 +24,7 @@ class TestFan:
         print(colored(("-" * 72), color='green'))
 
         # create object for fan2
-        fan2 = Fan(Fan.MEDIUM, False, 10, "blue")
+        fan2 = Fan(Fan.MEDIUM, False, 5, "blue")
         # print
         print("\033[1;33mFan Speed:\033[0m", fan2.get_fan_speed())
         print("\033[1;31mPower:\033[0m", fan2.get_on())
