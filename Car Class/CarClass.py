@@ -1,4 +1,4 @@
-# Create class for fan
+# Create class for car
 class Car:
     # Create constructor
     # Set default speed
