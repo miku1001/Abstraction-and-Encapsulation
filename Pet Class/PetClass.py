@@ -9,7 +9,13 @@ class Pet:
         self.__age = age
 
     # Create getter method for name
+    def get_name(self):
+        return self.__name
+    
     # Create setter method for name
+    def set_name(self, name):
+        self.__name = name
+        
     # Create getter method for animal type
     # Create setter method for animal type
     # Create getter method for age
