@@ -28,7 +28,7 @@ Uses:
 ### Project Structure <a name="proj"></a>
 - FanClass.py: It handles the constructor, methods, and other parts that are necessary to run the program.
 - TestFan.py: Program where the attributes such as speed, radius, power status, and color are found.
-- 
+
 ### Run <a name="run"></a>
      $ git clone https://github.com/miku1001/Abstraction-and-Encapsulation.git
      $ cd Abstraction-and-Encapsulation
