@@ -15,8 +15,14 @@ class Pet:
     # Create setter method for name
     def set_name(self, name):
         self.__name = name
-        
+
     # Create getter method for animal type
+    def get_animal_type(self):
+        return self.__animal_type
+    
     # Create setter method for animal type
+    def set_animal_type(self, animal_type):
+        self.__animal_type = animal_type
+
     # Create getter method for age
     # Create setter method for age
