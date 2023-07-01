@@ -33,7 +33,10 @@ class Fan:
     
     # Create getter method for power status
     def get_on(self):
-        return self.__on
+        if self.__on == True:
+            return "On"
+        else:
+            return "Off"
         
     # Create setter method for power status
     def set_on(self, on):
