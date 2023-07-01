@@ -5,7 +5,7 @@ from termcolor import colored
 # Create header
 f = Figlet(font='banner3-D')
 print(colored(f.renderText("       Fan       "), 'green'))
-print(colored(("=" * 72), color='green'))
+print(colored(("=" * 73), color='green'))
 
 # Create class for fan
 class Fan:

@@ -1,3 +1,12 @@
+# Import ptfiglet and termcolor
+from pyfiglet import Figlet
+from termcolor import colored
+
+# Create header
+f = Figlet(font='banner3-D')
+print(colored(f.renderText("       Car       "), 'blue'))
+print(colored(("=" * 74), color='blue'))
+
 # Create class for car
 class Car:
     # Create constructor

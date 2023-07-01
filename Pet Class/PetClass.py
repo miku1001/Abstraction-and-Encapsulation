@@ -4,8 +4,8 @@ from termcolor import colored
 
 # Create header
 f = Figlet(font='banner3-D')
-print(colored(f.renderText("       Fan       "), 'green'))
-print(colored(("=" * 72), color='violet'))
+print(colored(f.renderText("       Pet       "), 'red'))
+print(colored(("=" * 73), color='red'))
 
 # Create class for pet
 class Pet:
