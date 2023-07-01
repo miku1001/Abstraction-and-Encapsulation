@@ -35,13 +35,13 @@ class Fan:
         return self.__radius
         
     # Create setter method for radius
-    def set_on(self, radius):
+    def set_radius(self, radius):
         self.__radius = radius
     
     # Create getter method for color
-    def get_radius(self):
+    def get_color(self):
         return self.__color
         
-    # Create setter method for radius
-    def set_on(self, color):
+    # Create setter method for color
+    def set_color(self, color):
         self.__color = color
